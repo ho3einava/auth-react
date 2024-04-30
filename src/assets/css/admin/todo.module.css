@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../../font/Nunito-Regular.ttf);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.todoList{
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: "nunito";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f8f7ff;
+    color: #0d0c1d;
+    border: 3px solid #ff595e;
+}
+.button{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.checkbox{
+    width: 25px;
+    height: 25px;
+}
+.todoItem{
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: "nunito";
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #343a40;
+    color: white;
+    margin-top: 2rem;
+}
+.label{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 130px;
+    height: 40px;
+    gap: 10px;
+}
